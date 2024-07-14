@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #e0d4f7;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  background-color: #c4a3e5;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+  color: #4b3069;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-tabs {
+  display: flex;
+  background-color: #a685e2;
+}
+
+.nav-tabs a {
+  flex: 1;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-tabs a:hover {
+  background-color: #9a69d4;
+}
+
+.nav-tabs .active-tab {
+  background-color: #6a3ba7;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f3e8ff;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .nav-tabs {
+    flex-direction: column;
+  }
+
+  .nav-tabs a {
+    text-align: left;
+  }
+}

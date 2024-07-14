@@ -1,0 +1,71 @@
+.book-card {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-image img {
+    max-width: 100px;
+    max-height: 150px;
+    border-radius: 4px;
+  }
+  
+  .book-details {
+    flex: 1;
+    padding: 0 16px;
+  }
+  
+  .book-details h2 {
+    margin: 0 0 8px;
+  }
+  
+  .book-details p {
+    margin: 4px 0;
+  }
+  
+  .book-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+  }
+  
+  .quantity-controls button {
+    padding: 8px;
+    background-color: #6a3ba7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 4px;
+  }
+  
+  .quantity-controls button:hover {
+    background-color: #6a3ba7;
+  }
+  
+  .quantity-controls span {
+    margin: 0 8px;
+  }
+  
+  .book-actions button {
+    padding: 8px 16px;
+    background-color: #6a3ba7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-actions button:hover {
+    background-color: #6a3ba7;
+  }
+  

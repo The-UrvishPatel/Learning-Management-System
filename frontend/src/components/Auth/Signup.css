@@ -1,0 +1,14 @@
+.interest {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .interest.selected {
+    background-color: #6a3ba7;
+    color: #fff;
+  }
+  

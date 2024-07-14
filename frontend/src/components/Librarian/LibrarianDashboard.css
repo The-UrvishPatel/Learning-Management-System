@@ -1,0 +1,11 @@
+.hello{
+    width: 15%;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-tabs-above{
+    width: 100%;
+}
